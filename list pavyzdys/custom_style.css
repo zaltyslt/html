@@ -1,0 +1,9 @@
+/* sąrašų elementams, kurie neturi klasės active keičiame simbolį */
+ul li:not(.active){
+    list-style-image: url('images/leaf_icon.jpg');
+}
+
+/* visiems elementams padidinam eilutės aukštį */
+li{
+    line-height: 2rem;
+}

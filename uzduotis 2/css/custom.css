@@ -1,0 +1,60 @@
+
+   
+   .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+}
+
+.header-image {
+    color: #fff;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  /* height: 70vh; */
+  /* background-color: darkgreen;
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('images/header.jpg'); */
+  background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ main h2{
+    font-weight: bold;
+}
+.main p {
+    opacity: 0.5;
+    
+}
+main a:after {
+    position: absolute;
+    padding-left:2px; 
+    content: "\2192"; 
+   
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  /* .row {
+    /* margin-bottom: -99999px;
+    padding-bottom: 99999px; */
+  /* }  
+  ul li::before { */ 
+    /* ul li::before{
+    content: "\2714";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+/*    color: #47b2e4; /* Change the color */
+  /*  font-weight: bold; /* If you want it to be bold */
+   /* display: inline-block; /* Needed to add space between the bullet and the text */
+    /*width: 1em; /* Also needed for space (tweak if needed) */
+    /*margin-left: -1em; /* Also needed for space (tweak if needed) */
+    /*font-family: 'remixicon';
+font-style: normal;
+  } */
+    
+
+ul li:not(.active){
+    content: "\2093";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    /* color: #47b2e4;   */
+}
