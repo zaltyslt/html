@@ -1,0 +1,50 @@
+/* fontAwesome 4.7 */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* Section */
+#bgImage{
+    height: 400px;
+    background-image: url(../IMG/Header.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#navbar{
+    background-color: rgb(66, 66, 66) !important;
+    color: white !important;
+}
+
+#navbar a,  ul{
+    background-color: rgb(66, 66, 66) !important;
+    color: white !important;
+}
+
+/* Main cards*/
+
+main{
+    padding: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+/* Footer */
+footer{
+    padding: 20px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+footer li{
+    background-color: rgb(66, 66, 66) !important;
+    color: white !important;
+}
+
+br {
+    display: block;
+    content: "";
+    margin-top: 40px;
+ }

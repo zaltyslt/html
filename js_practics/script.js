@@ -20,3 +20,4 @@ btn2.addEventListener('click', ()=>{
     pic.classList.add('dar');
     pic.setAttribute('src','https://www.w3schools.com/images/compatible_chrome.png');
 });
+

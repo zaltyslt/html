@@ -43,7 +43,7 @@ function ShowDataOnHTML(data){
         <article class="quote">
         ${simpson.quote}
         <img src="${simpson.image}" alt="">
-        </article>`
+        </article>`;
         
     });
 }
