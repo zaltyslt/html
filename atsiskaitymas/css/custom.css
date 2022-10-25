@@ -1,0 +1,42 @@
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    line-height: 1.5 !important;
+    color: hsl(243, 87%, 12%)
+}
+
+p {
+    font-size: 1em;
+    color: hsl(238, 22%, 44%);
+
+}
+article ~ p{
+    font-size: 1em;
+    color: hsl(100, 100, 100);
+
+}
+
+
+.my-img-1 {
+    max-width: 100%;
+    height: auto;
+    object-position: center;
+    object-fit: cover;
+}
+
+.my-img-bg {
+    /* max-width: 100%; */
+    background-image: url("../images/bg-curve-mobile.svg");
+    height: 100px;
+    /* object-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: green solid 1px;
+}
+.footer{
+    background-color: hsl(243, 87%, 12%)
+}
